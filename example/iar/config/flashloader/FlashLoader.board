@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<flash_board>
+  <pass>
+    <loader>$PROJ_DIR$\config\flashloader\FlashApollo256.flash</loader>
+    <range>CODE 0x00000000 0x0003FFFF</range>
+  </pass>
+  <pass>
+    <loader>$PROJ_DIR$\config\flashloader\FlashApollo256_1.flash</loader>
+    <range>CODE 0x00040000 0x0007FFFF</range>
+  </pass>
+</flash_board>
+
+
